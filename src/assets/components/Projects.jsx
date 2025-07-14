@@ -58,7 +58,7 @@ function PortFolio() {
                   Website link
                 </a>
                 <a
-                  href="https://github.com/Bapuji-ui/ICMS-Project"
+                  href="https://github.com/Bapuji-ui"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded"

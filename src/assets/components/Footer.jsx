@@ -48,15 +48,6 @@ function Footer() {
               >
                 <FaTwitter size={24} />
               </a>
-            
-              <a
-                href="https://www.linkedin.com/in/your-profile"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-blue-700"
-              >
-                <FaLinkedinIn size={24} />
-              </a>
             </div>
 
             {/* Footer Text */}
