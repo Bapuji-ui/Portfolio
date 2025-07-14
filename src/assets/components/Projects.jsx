@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import courseLogo from "../images/Nist.berhampur.logo.jpg"; // Placeholder logo
 import courseCanLogo from "../images/logo-online-course-platform-technical-courses_697205-98.jpg"; 
 
@@ -35,7 +34,7 @@ function PortFolio() {
         <h1 className="text-3xl font-bold mb-5">Projects</h1>
         <span className="underline font-semibold">Featured Projects</span>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 my-5">
-          {projectItems.map(({ id, logo, name, description, tech, videoLink, codeLink }) => (
+          {projectItems.map(({ id, logo, name, description, tech,}) => (
             <div
               key={id}
               className="md:w-[450px] border-[2px] rounded-lg shadow-lg p-4 hover:scale-105 duration-300"
@@ -49,14 +48,6 @@ function PortFolio() {
               <p className="text-gray-700 mb-2">{description}</p>
               <p className="text-sm text-gray-500 mb-4"><strong>Tech Used:</strong> {tech}</p>
               <div className="space-x-4">
-                <a
-                  href={videoLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded"
-                >
-                  Website link
-                </a>
                 <a
                   href="https://github.com/Bapuji-ui"
                   target="_blank"
