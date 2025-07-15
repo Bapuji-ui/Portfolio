@@ -26,6 +26,7 @@ function PortFolio() {
   ];
 
   return (
+    <>
     <div
       name="Projects"
       className="max-w-screen-2xl container mx-auto px-4 md:px-20 mt-10"
@@ -62,6 +63,8 @@ function PortFolio() {
         </div>
       </div>
     </div>
+    <hr/>
+    </>
   );
 }
 

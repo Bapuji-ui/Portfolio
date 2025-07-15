@@ -57,7 +57,7 @@ export default function Navbar() {
                 key={id}
                 onClick={() => setMenu(false)}
               >
-                   <Link to={text} smooth={true} duration={500}>  {/* Using Link from react-scroll for smooth scrolling  for linking using name through Link and give name to all the oage*/}
+                   <Link to={text} smooth={true} duration={500} onClick={() => setMenu(false)} >  {/* Using Link from react-scroll for smooth scrolling  for linking using name through Link and give name to all the oage*/}
                      {text}
                    </Link>
                 

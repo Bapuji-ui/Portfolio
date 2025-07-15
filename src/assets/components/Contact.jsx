@@ -1,8 +1,10 @@
+/* eslint-disable react/no-unescaped-entities */
 import { FaLinkedin, FaPhoneAlt } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 
 function Contact() {
   return (
+    <>
     <div
       name="Contact"
       className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16"
@@ -41,6 +43,8 @@ function Contact() {
         </div>
       </div>
     </div>
+    <hr/>
+    </>
   );
 }
 

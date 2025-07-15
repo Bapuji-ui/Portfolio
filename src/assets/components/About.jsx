@@ -3,6 +3,7 @@ import Resume from "../images/bapujipradhan33gmail.com(cv) 1.pdf"; // Path to yo
 
 function About() {
   return (
+    <>
     <div
       name="About"
       className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-20"
@@ -75,6 +76,8 @@ function About() {
         </a>
       </div>
     </div>
+    <hr/>
+    </>
   );
 }
 
